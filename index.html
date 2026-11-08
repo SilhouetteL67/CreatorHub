@@ -8,42 +8,72 @@
 </head>
 <body>
     <div class="app-container">
-        <!-- SIDEBAR NAV -->
 
-            <aside class="sidebar">
+        <!-- SIDEBAR NAVIGATION -->
+         <aside class="sidebar">
             <div class="app-logo">
-                <h2 class="logo-styler">CreatorHub</h2>  
-                <ul class="sidebar-nav">
-                    <li class="static"><a href="#">Dashboard</a></li>
-                    <li><a href="#">Analytics</a></li>
-                    <li><a href="#">Subscribers</a></li>
-                    <li><a href="#">Products & Sales</a></li>
-                    <li><a href="#">Settings</a></li>
-                </ul>
+                <h2>CreatorHub</h2>
             </div>  
-            </aside>
+            <ul class="sidebar-menu">
+              <li class="active"><a href="#">Dashboard</a></li>
+              <li><a href="#">Analytics</a></li>
+              <li><a href="#">Subscribers</a></li>
+              <li><a href="#">Products & Sales</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+            <div class="sidebar-footer">
+                <div class="user-avatar-placeholder">KS</div>
+                <div>
+                    <span class="user-name">Kuria Seth</span>
+                    <span class="user-role">Admin</span>
+                </div>
+            </div>  
+         </aside>
 
-        <!-- MAIN CONTENT -->
+        <!-- MAIN CONTENT AREA -->
+            <div class="main-content">
 
-            <main class="main-content">
-                <!-- HEADER -->
-                <h1 class="dash-styler">Dashboard</h1>
-                <p class="welcome-msg">Welcome back, Seth! Here's how your business is performing today.</p>
+                <!-- TOP NAVBAR -->
+                 <header class="top-nav">
+                   <div class="search-box">
+                     <input type="text" placeholder="Search reports, customers, sales...">
+                   </div>
+                   <div class="nav-actions">
+                     <button class="icon-btn notification-btn"></button>
+                     <button class="icon-btn theme-toggle-btn"></button>
+                   </div>
+                 </header>  
 
-                <!-- MAIN CONTENT -->
-                <section class="card-content">
-                    <!-- CARDS GO HERE -->
-                </section>
+        <!-- DASHBOARD VIEW CONTAINER -->
 
-                <section class="chart-content">
+                <main class="main-content">
+                  <!-- DASHBOARD HEADER -->
+                     <h1 class="dash-styler">Dashboard</h1>
+                     <p class="welcome-msg">Welcome back, Seth! Here's how your business is performing today.</p>
+
+                  <!-- MAIN CONTENT -->
+                   <!-- CARDS GO HERE -->
+                     <section class="metrics-grid">
+                       <!-- CARDS -->
+                     </section>
+
                     <!-- CHART GOES HERE -->
-                </section>
+                     <section class="charts-section">
+                       <!-- CHARTS -->
+                     </section>
 
-                <section class="table-content">
                     <!-- TABLES GO HERE -->
-                </section>
+                     <section class="tables-section">
+                       <!-- TABLES -->
+                     </section>
 
-              </main>
+                  <!-- DASHBOARD FOOTER -->
+                   <footer>
+                     <!-- LINKS TO SOCIALS GO HERE -->
+                   </footer>
+
+                </main>
+            </div>    
     </div>
 </body>
 </html>
